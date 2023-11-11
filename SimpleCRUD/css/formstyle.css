@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    margin: 10px;
+}
+/* a represents the home button*/
+.submit-button, a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover, a:hover {
+    background-color: grey;
+    border: 1px solid white;
+}
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }

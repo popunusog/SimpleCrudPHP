@@ -1,0 +1,27 @@
+
+-- Struktura tabeli dla tabeli `country`
+
+CREATE TABLE `country` (
+  `id` int(11) NOT NULL,
+  `name` varchar(20) NOT NULL,
+  `population` int(11) NOT NULL,
+  `area` int(11) NOT NULL
+) 
+
+INSERT INTO `country` (`id`, `name`, `population`, `area`) VALUES
+(1, 'France', 67076000, 551695),
+(2, 'Germany', 83190556, 357022),
+(3, 'Italy', 60483973, 301340),
+(4, 'Spain', 46704314, 505990),
+(5, 'United Kingdom', 66460344, 242495),
+(6, 'Greece', 10768193, 131957),
+(7, 'Netherlands', 17407585, 41526),
+(8, 'Sweden', 10367295, 450295),
+(9, 'Switzerland', 8542323, 41285),
+(10, 'Portugal', 10341330, 92212);
+
+ALTER TABLE `country`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+COMMIT;
+
+
